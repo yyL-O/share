@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>SHARE 分享你的生活</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body class="pic">
+		<div class="wrapper">
+			<div class="header1">
+				<h1><a href="register.html"><img src="images/logo_reg.png" alt="SHARE" title="SHARE 分享你的所见所闻所感" width="300px" height="86px"></a></h1>
+				<h2>分享你的所见，所闻，所感</h2>
+				<h3>在这里，分享生活的点滴，留下最真的自我，在时光的流逝中留下一些回味。</h3>
+			</div>
+			<div class="content">
+				<!-- 注册表单部分 -->
+				<form id="register" action="regProcess.php" method="post">
+					<!-- 邮箱 -->
+					<div class="reg_box">
+					<div id="email_error" class="tip"></div>
+					<label for="email">邮箱</label>
+					<input type="email" id="email" class="reg_field" name="email" placeholder="输入你的常用邮箱" >
+					</div>
+					<!-- 昵称 -->
+					<div class="reg_box">
+					<div id="nickname_error" class="tip"></div>
+					<label for="nickname">昵称</label>
+					<input type="text" id="nickname" class="reg_field" name="nickname" placeholder="请为自己取一个喜欢的昵称:-D" >
+					</div>
+					<!-- 密码 -->
+					<div class="reg_box">
+					<div id="password_error" class="tip"></div>
+					<label for="password">密码</label>
+					<input type="password" id="password" class="reg_field" name="password" placeholder="密码不要告诉别人哦!" >
+					</div>
+					<!-- 提交 -->
+					<div class="register-button">
+						<input type="submit" class="reg_submit" value="注册">
+					</div>
+				</form>
+				<p class="login_skip">已有账号？<a href="login.html">立即登录</a></p>
+			</div>
+			<footer class="white">©2014 YYL</footer>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/validate.js"></script>
+	</body>
+</html>

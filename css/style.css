@@ -1,0 +1,560 @@
+/*---------------------------
+	style.css
+	author:yyL
+	time:2014-6-22
+-----------------------------
+*/
+
+body{
+	font-family: Tahoma,'微软雅黑',Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #f0f0f0;
+}
+body.pic{
+	color: #ececec;
+	background-image: url(../images/reg_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.wrapper{
+	margin: 0;
+	padding: 0;
+}
+.header1{
+	margin: 36px auto;
+	text-align: center;
+}
+.header1 h2{
+	font-size: 48px;
+	font-weight: normal;
+	line-height: 48px;
+	margin-top: 68px;
+}
+.header1 h3{
+	font-size: 28px;
+	font-weight: normal;
+	color: #cccccc;
+	line-height:28px;
+	margin-top: 36px;
+}
+.content{
+	width: 1000px;
+	margin: 0 auto;
+}
+#register{
+	width: 1000px;
+	margin-top: 104px;
+}
+.reg_box{
+	width: 305px;
+	margin: 0 14px;
+	padding:0;
+	border: none;
+	float: left;
+	text-align: left;
+	position: relative;
+}
+.reg_box .tip{
+	font-size: 12px;
+	color:#fd911e;
+	position: absolute;
+	right: 10px;
+	top: 8px;
+}
+.reg_box label{
+	font-size: 18px;
+	display: block;
+	margin-bottom: 10px;
+}
+.reg_field {
+	font-size: 14px;
+	line-height: 20px;
+	color: #444;
+	background-color: #e5e5e5;
+	width: 290px;
+	height: 42px;
+	padding: 4px 0 0 16px;
+	border-radius: 6px;
+	border: none;
+	*line-height: 42px;  /*IE6 7*/
+	line-height: 42px\0;  /*IE8*/
+}
+.reg_field:active,.reg_field:hover{
+	background-color: #F1EFA5;
+}
+.register-button {
+	clear: both;
+}
+.reg_submit{
+	font-family: '微软雅黑';
+	font-size: 18px;
+	text-align: center;
+	color: #ececec;
+	background: #f5634a;
+	width: 180px;
+	height: 45px;
+	margin: 56px 0 0 0;
+	border: none;
+	border-radius: 8px;
+}
+.reg_submit:active,.reg_submit:hover{
+	color: #fff;
+	text-decoration: none;
+	background-color: #F77825;
+}
+.login_skip{
+	text-align: right;
+	margin:16px 60px 0 0;
+}
+.login_skip a{
+	color: #ff9c5b;
+	text-decoration: none;
+}
+.login_skip a:link{
+	color: #ff9c5b;
+}
+.login_skip a:active,.login_skip a:hover{
+	color: #f5634a;
+}
+footer{
+	font-size: 14px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	color: #666;
+}
+.white{
+	color: #ececec;
+}
+
+/* ----------for login.html-----------*/
+.header{
+	width: auto;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 52px;
+	border-bottom: 1px solid #e0e0e0;
+	background-color: #fff;
+	z-index: 99997;
+}
+.header_box{
+	width: 1000px;
+	position: relative;
+	margin: 0 auto;
+	border: 0;
+}
+#logo{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -17px 0 0 -60px;
+	display: block;
+	width: 119px;
+	height:34px;
+	background: url(../images/logo.png) 0 0 no-repeat;
+}
+.menu_bar{
+	height: 52px;
+}
+.add{
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#login{
+	font-size: 14px;
+	width: 420px;
+	height: 480px;
+	margin: 100px auto;
+	text-align: center;
+}
+.login_title{
+	font-size: 20px;
+	font-weight: normal;
+	color: #fff;
+	height: 48px;
+	line-height: 48px;
+	background-color: rgba(0,0,0,0.6);
+	*background-color: #343434;   /*IE6、IE7*/
+	background-color: #343434\9;   /*IE8*/
+}
+.login_input{
+	margin-top: 5px;
+	padding: 20px 57px 20px 43px;
+	background-color: rgba(0,0,0,0.6);
+	*background-color: #343434;  /*IE6、IE7*/
+	background-color: #343434\9;   /*IE8*/
+}
+#login .reg_box{
+	margin-top: 25px;
+	height: 75px;
+	float: none;
+}
+#login label{
+	font-size: 14px;
+}
+.login_submit{
+	font-family: '微软雅黑';
+	color: #ececec;
+	line-height: 46px;
+	width: 306px;
+	height: 48px;
+	margin: 40px 0 0 13px;
+	background-color: #f5634a;
+	border: none;
+	border-radius: 6px;
+}
+.login_submit:active,.login_submit:hover{
+	color: #fff;
+	text-decoration: none;
+	background-color: #F77825;
+}
+/* ----------for index.html-----------*/
+.logo{
+	*margin-top: 9px;  /* IE6 7*/
+	margin-top: 0\0;  /*IE8*/
+}
+.header_box a{
+	float: left;
+	line-height: 52px;
+}
+.logo h1{
+	line-height: 48px;
+}
+.user{
+	position: absolute;
+	right: 0;
+	top: 6px;
+}
+.user_pic{
+	width: 40px;
+	height: 52px;
+	float: right;
+	*position: relative;
+}
+.triangle{
+	width: 10px;
+	height: 6px;
+	float: right;
+	background: url(../images/triangle.png) no-repeat;
+}
+.user_choice{
+	width: 120px;
+	height: 80px;
+	background-color: #fff;
+	margin-top: 53px;
+	display: none;
+	clear: both;
+	/*z-index: 100;*/
+	*position: absolute;
+	*right: 0;
+	*top: 0;
+}
+.user_choice li{
+	font-size: 12px;
+	width: 70px;
+	height: 16px;
+	padding: 12px 25px;
+	line-height: 40px;
+}
+.user_choice li a{
+	color: #444;
+	line-height: 16px;
+}
+.user_choice li a:active,.user_choice li a:hover{
+	color: #f5634a;
+	text-decoration: none;
+}
+.menu_per_info a{
+	background:url(../images/person.png) no-repeat left center;
+	padding-left: 20px;
+}
+.exit{
+	border-top: 1px solid #e0e0e0;
+}
+.exit a{
+	background:url(../images/exit.png) no-repeat left center;
+	padding-left: 20px;
+}
+#container{
+	position: relative;
+	width: 1000px;
+	margin: 64px auto 25px;
+	padding-bottom: 10px;
+}
+.grid{
+	font-size:12px;
+	text-align: left;
+	float:left;
+	width:188px;
+	min-height:100px;
+	background:#fff;
+	margin:8px;
+}
+.grid p{
+	text-indent: 2em;
+	padding: 15px 15px 0 15px;
+}
+.grid .imgholder img{
+	width: 100%;
+	background: #ececec;
+	display: block;
+	background: url(../images/load.png) no-repeat center;
+}
+p.author{
+	padding: 6px;
+
+}
+p.author span{
+	color: #777;
+}
+p.author a{
+	color: #f5634a;
+	text-decoration: none;
+	padding-left: 12px;
+}
+
+/* ----------for perPage.html-----------*/
+.per_info{
+	width: 1000px;
+	height: 260px;
+	margin-top: 86px;
+	margin-bottom: -45px;
+	background: url(../images/perinfo_bg.jpg) no-repeat;
+	position: relative;
+}
+.per_info img{
+	float: left;
+	margin: 40px 36px 40px 50px;
+}
+.per_details{
+	text-align: left;
+	color: #fff;
+	width: 690px;
+	height: 150px;
+	float: right;
+	margin: 30px 42px 0 0;
+}
+.per_details p{
+	margin-top: 25px;
+	line-height: 24px;
+}
+.per_details p span{
+	margin-right: 8px;
+}
+#edit{
+	color: #ececec;
+	text-decoration: none;
+	display: inline-block;
+	width: 120px;
+	height: 36px;
+	line-height: 36px;
+	background-color: rgba(0,0,0,0.3);
+	*background-color: #333;
+	background-color: #333\9;
+	background-image: url(../images/edit.png) no-repeat left center;
+	position: absolute;
+	right: 60px;
+	top: 40px;
+}
+#edit:link,#edit:visited{
+	color: #ececec;
+}
+#edit:active,#edit:hover{
+	color: #f5634a;
+}
+/* ----------for perInfoEdit.html-----------*/
+.pic_edit{
+	width: 1000px;
+	height: 260px;
+	background-color: #fff;
+	margin-top: 70px;
+}
+.pic_edit img{
+	float: left;
+	margin: 40px 50px 40px 254px;
+	margin-top: 40px;
+	margin-left: 254px;
+}
+.upload{
+	float: left;
+	width: 200px;
+	margin-top: 80px;
+}
+.upload .upload_btn{
+	display: block;
+	margin-top: 20px;
+}
+.upload .editpic_btn{
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	width: 94px;
+	height: 36px;
+	line-height: 36px;
+	background-color: #f5634a;
+	border-radius: 4px;
+	border: none;
+	margin-top: 20px;
+	margin-right: 16px;
+}
+.editpic_btn:active,.editpic_btn:hover{
+	color: #fff;
+	text-decoration: none;
+	background-color: #F77825;
+}
+.tab_change{
+	text-align: center;
+	width: 1000px;
+	height: 64px;
+	margin: 10px 0 0 0;
+	padding: 0;
+	background-color: #fff;
+}
+.tab_change ul{
+	width: 360px;
+	height: 64px;
+	margin: 0 auto;
+}
+.tab_change ul li{
+	font-size: 16px;
+	width: 180px;
+	height: 60px;
+	line-height: 60px;
+	float: left;
+	border-top: 4px solid #e2e2e2;
+}
+.tab_change .current{
+	border-top: 4px solid #f5634a;
+}
+.tab_change .old{
+	border-top: 4px solid #e2e2e2;
+}
+.tab_change li a{
+	font-weight: bold;
+	color: #666;
+	text-decoration: none;
+}
+.tab_change li a:active,.tab_change li a:hover{
+	font-weight: bold;
+	color: #f5634a;
+	text-decoration: none;
+}
+.tab_change .current a{
+	color: #f5634a;
+}
+.editbase_form{
+	display: none;
+}
+.editbase_form{
+	display: none;
+}
+.current_form{
+	display: block;
+}
+.base_edit{
+	font-size: 14px;
+	color: #444;
+	width: 1000px;
+	min-height: 670px;
+	background-color: #fff;
+	/*margin-top: 10px;*/
+	padding-top: 20px;
+	position: relative;
+}
+.edit_box{
+	clear: both;
+	height: 48px;
+	margin-right: 4px;
+	margin-top: 24px;
+}
+.edit_box label{
+	width: 280px;
+	height: 46px;
+	line-height: 46px;
+	float: left;
+	text-align: right;
+	padding-right: 20px;
+}
+.edit_field{
+	font-size: 12px;
+	color: #444;
+	width: 320px;
+	height: 44px;
+	line-height: 44px;
+	border: 1px solid #cacaca;
+	border-radius: 4px;
+	float: left;
+	padding: 0 12px;
+	
+}
+.edit_field:active,.edit_field:hover{
+	background-color: #ffffdc;
+}
+.edit_tip{
+	font-size: 12px;
+	color: #fd911e;
+	float: left;
+	margin-left: 16px;
+	line-height: 46px;
+}
+.box_sex{
+	margin-top: 20px;
+}
+.sex_choice{
+	float: left;
+	margin-top: 15px;
+}
+.editsex_field{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	border: 1px solid #cacaca;
+	margin-right: 6px;
+	margin-left: 8px;
+}
+.introduce_field{
+	font-size: 12px;
+	float: left;
+	width: 320px;
+	height: 146px;
+	padding: 12px;
+	border: 1px solid #cacaca;
+	border-radius: 4px;
+	line-height: 24px;
+}
+.introduce_field:active,.introduce_field:hover{
+	background-color: #ffffdc;
+}
+.edit_sub_box{
+	clear: both;
+	width: 200px;
+	margin: 0 auto;
+	*position: relative;
+}
+.edit_sub{
+	font-size: 14px;
+	color: #fff;
+	background-color: #f5634a;
+	width: 130px;
+	height: 40px;
+	border: none;
+	border-radius: 4px;
+	display: block;
+	clear: both;
+	position: absolute;
+	margin-top: 20px;
+	*position: absolute;
+	*top: 140px;
+	*left: -10px;
+}
+.edit_sub:active,.edit_sub:hover{
+	background-color: #F77825;
+}
+.editpwd_sub{
+	margin-top: 34px;
+}
